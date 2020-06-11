@@ -168,9 +168,8 @@ Após executar algum desses comando segue o print do resultado.
 
 [DGOSS Instalation](https://github.com/aelsabbahy/goss/tree/master/extras/dgoss#installation)
 
+[DGOSS EXample](https://github.com/aelsabbahy/dgoss-examples)
+
 [Goss Docker container](https://github.com/aelsabbahy/goss-docker)
 
 [Tutorial: How to test your docker image in half a second](https://medium.com/@aelsabbahy/tutorial-how-to-test-your-docker-image-in-half-a-second-bbd13e06a4a9)
-
-
-
