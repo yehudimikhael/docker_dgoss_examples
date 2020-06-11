@@ -155,7 +155,10 @@ OU
 $ dgoss run -e GOSS_WAIT_OPTS="-r 60s -s 10s" -e PORT="8080" -p 8080:8080 example_node_1
 ```
 
-Após executar algum desses comando segue o print do resultado.
+
+Após executar algum desses comando segue o print do resultado de um teste feito numa imagem do Camunda. 
+Nesse exemplo o serviço do camunda demora para subir devido precisar configurar certos parâmetros.
+Por isso peguei como exemplo para mostrar a função `GOSS_WAIT_OPTS`.
 
 ![Image](img/goss_wait_1.png)
 ![Image](img/goss_wait_2.png)
