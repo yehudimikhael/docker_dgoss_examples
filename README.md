@@ -87,10 +87,11 @@ http://localhost:8080:
   allow-insecure: false
   no-follow-redirects: false
   timeout: 5000
-  body: []
+  body:
+    - Hello World
 ```
 
-Nesse comando estamos adicionando o recurso `http`, que vamos validar o código response. Porém podemos validar outras coisas com esse recurso como header, se contém uma URI, body, username, password para autenticação e entre outros podendo ser visto nesse [link](https://github.com/aelsabbahy/goss/blob/master/docs/manual.md#http)
+Nesse comando estamos adicionando o recurso `http`, que vamos validar o código do response e se o body vai ser `Hello World`. Porém podemos validar outras coisas com esse recurso como header, se contém uma URI, username, password para autenticação e entre outros podendo ser visto nesse [link](https://github.com/aelsabbahy/goss/blob/master/docs/manual.md#http)
 
 
 
