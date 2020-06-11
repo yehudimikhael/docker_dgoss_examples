@@ -156,8 +156,21 @@ $ dgoss run -e GOSS_WAIT_OPTS="-r 60s -s 10s" -e PORT="8080" -p 8080:8080 exampl
 
 Após executar algum desses comando segue o print do resultado.
 
-![image info](img/goss_wait_1.png)
-![image info](img/goss_wait_2.png)
+![Image](img/goss_wait_1.png)
+![Image](img/goss_wait_2.png)
+
+
+
+
+**REFERÊNCIAS**
+
+[GOSS](https://github.com/aelsabbahy/goss)
+
+[DGOSS Instalation](https://github.com/aelsabbahy/goss/tree/master/extras/dgoss#installation)
+
+[Goss Docker container](https://github.com/aelsabbahy/goss-docker)
+
+[Tutorial: How to test your docker image in half a second](https://medium.com/@aelsabbahy/tutorial-how-to-test-your-docker-image-in-half-a-second-bbd13e06a4a9)
 
 
 
