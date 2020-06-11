@@ -1,0 +1,23 @@
+file:
+  /usr/src/app/server.js:
+    exists: true
+    mode: "0644"
+    size: 257
+    owner: root
+    group: root
+    filetype: file
+    contains: []
+process:
+  node:
+    running: true
+port:
+  tcp:8080:
+    listening: true
+    ip:
+    - 0.0.0.0
+http:
+  http://localhost:8080/:
+    status: 200
+    allow-insecure: false
+    no-follow-redirects: false
+    timeout: 5000

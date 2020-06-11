@@ -1,0 +1,11 @@
+port:
+  tcp:8080:
+    listening: true
+    ip:
+    - 0.0.0.0
+http:
+  http://localhost:8080/:
+    status: 200
+    allow-insecure: false
+    no-follow-redirects: false
+    timeout: 5000

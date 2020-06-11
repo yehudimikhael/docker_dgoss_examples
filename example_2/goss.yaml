@@ -1,0 +1,12 @@
+file:
+  /usr/src/app/server.js:
+    exists: true
+    mode: "0644"
+    size: 257
+    owner: root
+    group: root
+    filetype: file
+    contains: []
+process:
+  node:
+    running: true
