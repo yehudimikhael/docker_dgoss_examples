@@ -172,8 +172,10 @@ Por isso peguei como exemplo para mostrar a função `GOSS_WAIT_OPTS`.
 
 [DGOSS Instalation](https://github.com/aelsabbahy/goss/tree/master/extras/dgoss#installation)
 
-[DGOSS EXample](https://github.com/aelsabbahy/dgoss-examples)
+[DGOSS Example](https://github.com/aelsabbahy/dgoss-examples)
 
-[Goss Docker container](https://github.com/aelsabbahy/goss-docker)
+[GOSS Docker container](https://github.com/aelsabbahy/goss-docker)
+
+[KGOSS - Kubernetes](https://github.com/aelsabbahy/goss/blob/master/extras/kgoss/README.md)
 
 [Tutorial: How to test your docker image in half a second](https://medium.com/@aelsabbahy/tutorial-how-to-test-your-docker-image-in-half-a-second-bbd13e06a4a9)
