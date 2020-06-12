@@ -7,7 +7,7 @@ Em ambos os exemplos temos o mesmo `Dockerfile`, ou seja, uma aplicação em Nod
 
 ## Example - 1
 
-No exemplo 1 criamos o arquivo `goss.yml`, contando a validação do arquivos `server.js` e suas permissões. Além dessa validação temos a verificação se o processo `NODE` está rodando no container, se a porta `8080` está aberta e se está retornando `200` ao chamar o endereço `http://localhost:8080`.
+No exemplo 1 criamos o arquivo `goss.yaml`, e nele vamos validar se o arquivo `server.js` existe na imagem do container. Além dessa validação temos a verificação se o processo `NODE` está rodando no container, se a porta `8080` está aberta e se está retornando `200` ao chamar o endereço `http://localhost:8080`.
 
 Para criamos esse arquivo, foi executado o comando: 
 ```sh
